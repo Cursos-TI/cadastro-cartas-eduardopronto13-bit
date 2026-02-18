@@ -7,6 +7,11 @@
 int main() {
   // Área para definição das variáveis para armazenar as propriedades das cidades
    printf("Criando Super Trunfo");
+   int populacao;
+   float area;
+   float pib;
+   int pontos turísticos;
+   
   // Área para entrada de dados
 
   // Área para exibição dos dados da cidade
