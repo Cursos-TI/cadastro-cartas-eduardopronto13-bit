@@ -9,7 +9,7 @@ int main(){
   int população;
   float area;
   float pib;
-  int numero_de_pontos_tuísticos;
+  int numero_de_pontos_turísticos;
   // Área para entrada de dados
    printf("Digite a Populacao: ");
    scanf("%d", &população);
@@ -21,6 +21,8 @@ int main(){
    scanf("%f", &pib);
    printf("O PIB é: %f\n", pib);
    printf("Digite o numero de pontos turisticos: ");
+   scanf("%d", &numero_de_pontos_turísticos);
+   printf("O número de Pontos Turísticos é: %d\n", numero_de_pontos_turísticos);
    
   // Área para exibição dos dados da cidade
 
