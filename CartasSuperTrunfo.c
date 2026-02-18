@@ -25,6 +25,10 @@ int main(){
    printf("O número de Pontos Turísticos é: %d\n", numero_de_pontos_turísticos);
    
   // Área para exibição dos dados da cidade
+  printf("População: %d pessoas\n", população);
+  printf("Área: %f m²\n", area);
+  printf("PIB: %f reais\n", pib);
+  printf("Pontos Turísticos: %d\n", numero_de_pontos_turísticos);
 
 return 0;
 } 
