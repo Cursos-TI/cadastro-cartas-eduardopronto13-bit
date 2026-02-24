@@ -6,10 +6,10 @@
 
 int main(){
   // Área para definição das variáveis para armazenar as propriedades das cidades
- 
-  char estado[3];
-  char codigo_da_carta[3];
-  char cidade[20];
+  
+  char estado[30];
+  char codigo_da_carta[30];
+  char cidade[40];
   int população;
   float area;
   float pib;
@@ -18,7 +18,7 @@ int main(){
   float pibpercapita;
   
   // Área para entrada de dados
-   
+   printf("---Cadastro da Carta 1 ---\n");
    printf("carta1\n");
    printf("Digite o estado: \n");
    scanf("%s", &estado);
@@ -46,6 +46,7 @@ int main(){
    pibpercapita = (float) pib / area;
    printf("PIB per Capita: %f\n", pibpercapita);
    
+   printf("\n---Cadastro da Carta 2 ---\n");
    printf("carta2\n");
    printf("Digite o estado: \n");
    scanf("%s", &estado);
