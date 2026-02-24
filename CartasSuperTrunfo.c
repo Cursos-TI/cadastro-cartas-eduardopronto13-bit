@@ -7,7 +7,6 @@
 int main(){
   // Área para definição das variáveis para armazenar as propriedades das cidades
  
-  int carta1, carta2;
   char estado[3];
   char codigo_da_carta[3];
   char cidade[20];
@@ -87,7 +86,7 @@ int main(){
   printf("Densidade Populacional: %f hab/km²\n", densidadepopulacional);
   printf("PIB per Capita: %f reais\n", pibpercapita);
 
-  printf("Carta 2\n");
+  printf("Carata 2\n");
   printf("Estado: %s\n", estado);
   printf("Código da Cidade: %s\n", codigo_da_carta);
   printf("Nome da Cidade: %s\n", cidade);
@@ -97,7 +96,6 @@ int main(){
   printf("Pontos Turísticos: %d\n", numero_de_pontos_turísticos);
   printf("Densidade Populacional: %f hab/km²\n", densidadepopulacional);
   printf("PIB per Capita: %f reais\n", pibpercapita);
-
    
   
  
